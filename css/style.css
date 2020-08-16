@@ -1,0 +1,103 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(61, 59, 59);
+    background-color: rgb(172, 168, 168);
+    font-size: 35px;
+    text-align: center;
+    margin: 0px;
+    padding:0px;
+    font-weight: bold;
+}
+
+#cabecalho{
+    background-color: orange;
+    padding:20px;
+}
+
+#menu a:link, a:visited{
+    text-decoration: none;
+    font-size: 18px;
+    color:white;
+    padding: 5px 10px;
+}
+
+#menu a:hover{
+    text-decoration: none;
+    font-size: 18px;
+    color:orange;
+    padding: 10px 10px;
+    background-color: white;
+}
+
+#areaprincipal{
+    width: 920px;
+    padding: 20px;
+    margin: 10px auto;
+}
+
+#area-postagens{
+    width: 620;
+    background-color: white;
+}
+
+.postagem{
+    width: 600px;
+    float: left;
+    background-color: white;
+    text-decoration: none;
+    text-align: justify;
+    font-size: 16px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+#lateral{
+    width: 240px;
+    float: right;
+    display: inline;
+
+}
+
+.conteudo-lateral{
+    background-color: white;
+    padding:10px;
+    margin: 10px auto;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.conteudo-lateral h3{
+    text-align: center;
+}
+
+.conteudo-lateral a:visited, a:link {
+    text-decoration: none;
+    color: black;
+}
+.conteudo-lateral a:hover {
+    text-decoration: underline;
+    color: black;
+   
+}
+
+h3{
+    background-color: rgb(190, 189, 189);
+    padding: 10px;
+    margin: 0px;
+}
+#rodape{
+    clear: both;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+
+
+.white{
+    color: white;
+}
